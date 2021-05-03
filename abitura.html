@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Институт Наук о Земле</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logors1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="about.html">ОБ ИНСТИТУТЕ</a></li>
+                    <li><a href="abitura.html">СТУДЕНТУ</a></li>
+                    <li><a href="abitura.html">АБИТУРИЕНТУ</a></li>
+                    <li><a href="news.html">НОВОСТИ</a></li>
+                    <li><a href="contact.html">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>АБИТУРИЕНТУ</h1>
+    </section>
+<!-- ________________courses__________________________ -->
+<section class="course">
+    <h1>Академические программы</h1>
+    <p>Подайте заявку на одну из лучших академических программ Единого Башкирского Университета</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Бакалавриат</h3>
+            <p>Четырехлетняя программа подготовки инженерных кадров для добыавющей отрасли</p>
+        </div>
+        <div class="course-col">
+            <h3>Магистратура</h3>
+            <p>Двухлетняя программа подготовки инженерных кадров - магистров для добыавющей отрасли</p>
+        </div>
+        <div class="course-col">
+            <h3>Аспирантура</h3>
+            <p>Четырехлетняя программа подготовки научных кадров для добыавющей отрасли</p>
+        </div>
+    </div>
+</section>
+
+<!-- ______________________________facilities___________________________ -->
+
+<section class="facilities">
+    <h1>Лектории, пространства и лаборатории</h1>
+    <p>Институт наук о Земле оснащен современными лекториями и научными лаборатории для комфортной учебы</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="">
+            <h3>Современные библиотеки</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="">
+            <h3>Спортивные залы</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="">
+            <h3>Научные лаборатории</h3>
+        </div>
+    </div>
+</section>
+
+<!-- ______________________footer_________________________________ -->
+    <section class="footer">
+        <h4>Институт наук о Земле</h4>
+        <p>Государственное образовательное учереждение высшего профессионального образования Единый Башкирский Университет<br> 2021. Все права защищены</p>
+        <div class="icons">
+            <i class="fa  fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-vk"></i>
+        </div>
+        <p>В партнерстве с <a href=""class="leolab"> Выготский Лаб</a></p>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

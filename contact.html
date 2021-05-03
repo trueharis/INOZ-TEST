@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Институт Наук о Земле</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logors1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="about.html">ОБ ИНСТИТУТЕ</a></li>
+                    <li><a href="abitura.html">СТУДЕНТУ</a></li>
+                    <li><a href="abitura.html">АБИТУРИЕНТУ</a></li>
+                    <li><a href="news.html">НОВОСТИ</a></li>
+                    <li><a href="contact.html">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>КОНТАКТЫ</h1>
+    </section>
+
+   <!-- ______________________________CONTACT US______________________________ -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1711.4508980739647!2d55.933549385362845!3d54.72022040006138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d93af7e050e2d1%3A0x70a4fe81892c29fb!2z0JHQsNGI0LrQuNGA0YHQutC40Lkg0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INGD0L3QuNCy0LXRgNGB0LjRgtC10YI!5e0!3m2!1sru!2sru!4v1619978689127!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+             <div class="contact-col">
+                 <div>
+                    <i class="fa  fa-home"></i>
+                    <span>
+                        <h5>ул. Карла Маркса, д. 3/4,</h5>
+                        <p>Республика Башкортостан, город Уфа</p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="fa  fa-phone"></i>
+                    <span>
+                        <h5>8-917-790-87-41</h5>
+                        <p>8.00-17.00 (понедельник-пятница)</p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="fa  fa-envelope-o"></i>
+                    <span>
+                        <h5>abiturient-geo@yandex.ru</h5>
+                        <p>Отправьте нам запрос и получите информацию о поступлении</p>
+                    </span>
+                 </div>
+             </div>
+             <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Введите Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea rows="10" placeholder="Введите сообщение"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Отправить</button>
+                    
+                </form>
+
+             </div>
+        </div>
+
+    </section>
+
+   
+    <section class="footer">
+        <h4>Институт наук о Земле</h4>
+        <p>Государственное образовательное учереждение высшего профессионального образования Единый Башкирский Университет<br> 2021. Все права защищены</p>
+        <div class="icons">
+            <i class="fa  fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-vk"></i>
+        </div>
+        <p>В партнерстве с <a href=""class="leolab"> Выготский Лаб</a></p>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

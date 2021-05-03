@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Институт Наук о Земле</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logors1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="about.html">ОБ ИНСТИТУТЕ</a></li>
+                    <li><a href="abitura.html">СТУДЕНТУ</a></li>
+                    <li><a href="abitura.html">АБИТУРИЕНТУ</a></li>
+                    <li><a href="news.html">НОВОСТИ</a></li>
+                    <li><a href="contact.html">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>ОБ ИНСТИТУТЕ</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Институт Наук о Земле - это крупнейший исследовательский университет Евразии, входящий в состав Единого Башкирского Университета.</h1>
+                <p>Более подробное описание об академических программах и научной деятельности университета</p>
+                <a href="" class="hero-btn red-btn">Узнать подробнее</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="footer">
+        <h4>Институт наук о Земле</h4>
+        <p>Государственное образовательное учереждение высшего профессионального образования Единый Башкирский Университет<br> 2021. Все права защищены</p>
+        <div class="icons">
+            <i class="fa  fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-vk"></i>
+        </div>
+        <p>В партнерстве с <a href=""class="leolab"> Выгодский Лаб</a></p>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
